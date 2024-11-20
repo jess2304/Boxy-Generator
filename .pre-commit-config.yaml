@@ -1,0 +1,16 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.2.0
+    hooks:
+      - id: check-yaml
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+
+  - repo: https://github.com/pre-commit/mirrors-prettier
+    rev: 'v2.7.1'
+    hooks:
+      - id: prettier
+        additional_dependencies: ['prettier@2.7.1']
+        args: ['--write', '--no-semi']
+        files: '\.(js|jsx|css|scss|json|md)$'
+        exclude: 'node_modules'
