@@ -8,28 +8,28 @@ const initialState = [
     inset: false,
     inputs: [
       {
-        iputNumber: 1,
+        inputNumber: 1,
         name: "Horizontal offset",
         value: 0,
         type: "range",
         minMax: [-250, 250],
       },
       {
-        iputNumber: 2,
+        inputNumber: 2,
         name: "Vertical offset",
         value: 10,
         type: "range",
         minMax: [-250, 250],
       },
       {
-        iputNumber: 3,
+        inputNumber: 3,
         name: "Blur radius",
         value: 15,
         type: "range",
         minMax: [0, 250],
       },
       {
-        iputNumber: 4,
+        inputNumber: 4,
         name: "Spread radius",
         value: -3,
         type: "range",
