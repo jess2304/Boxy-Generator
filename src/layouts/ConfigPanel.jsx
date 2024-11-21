@@ -13,14 +13,14 @@ export default function ConfigPanel() {
       <div className="flex absolute -translate-y-full -left-[1px]">
         {tabsList.map((tab, index) => {
           return (
-            <>
+            <div key={index}>
               <button
                 onClick={() => setTab(index)}
                 className="min-w-[125px] py-2 px-3 mr-3 font-bold bg-slate-50 border-t border-x border-gray-300 rounded-t hover:bg-slate-200 focus:bg-slate-200"
               >
                 {tab.name}
               </button>
-            </>
+            </div>
           )
         })}
       </div>
