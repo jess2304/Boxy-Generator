@@ -6,7 +6,7 @@ const initialState = [
     name: "Border radius",
     value: 25,
     type: "range",
-    minMax: [0, 250],
+    minMax: [0, 125],
   },
   {
     inputNumber: 2,
